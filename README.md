@@ -1,18 +1,83 @@
-## Getting Started
+# Project Title
+2D Game Development in Java
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## Project Description
+A 2D game development project using Java, focusing on creating a fully functional game with player interaction, tile management, and a game panel.
 
-## Folder Structure
+## Project Dependencies
+- Java Development Kit (JDK)
+- Java Runtime Environment (JRE)
+- Java libraries for graphics and game development (e.g., JavaFX, libGDX)
 
-The workspace contains two folders by default, where:
+## Implementations
+### Game Class
+The Game class serves as the main entry point for the game, handling game logic, updates, and rendering.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+### Player Sprite
+The Player sprite represents the player character in the game, with properties such as position, velocity, and animation.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+### Key Input Handler
+The Key input handler manages user input, translating keyboard and mouse events into game actions.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+### Game Tiles
+Game tiles are the building blocks of the game world, comprising terrain, obstacles, and interactive elements.
 
-## Dependency Management
+### Tile Manager
+The Tile manager oversees the creation, placement, and updating of game tiles, ensuring efficient rendering and collision detection.
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+### Game Panel
+The Game panel is the graphical user interface for the game, displaying the game world, player information, and other relevant data.
+
+### Roadmap
+#### Part 1: The Mechanism of 2D Games
+- Setting up the project
+- Creating a game window
+- Understanding the game loop
+
+#### Part 2: Game Loop and Rendering
+- Implementing the game loop
+- Drawing on the screen
+- Handling user input
+
+#### Part 3: Tile-Based Map
+- Creating a tile-based map
+- Loading map data from a file
+- Drawing the map on the screen
+
+#### Part 4: Player Movement
+- Implementing player movement
+- Handling collisions
+- Camera movement
+
+#### Part 5: Adding Enemies
+- Creating enemy AI
+- Implementing enemy movement and attacks
+
+#### Part 6: Adding Items and Inventory
+- Creating items and their properties
+- Implementing an inventory system
+
+#### Part 7: Adding Dialogue and Events
+- Creating dialogue boxes
+- Implementing event triggers
+
+#### Part 8: Adding Sound and Music
+- Loading and playing sound effects
+- Playing background music
+
+#### Part 9: Final Touches
+- Adding a title screen and menu
+- Optimizing performance
+- Adding final polish
+
+### Technologies Used
+- Java
+- Swing (for creating the game window)
+
+### Getting Started
+1. Clone the repository: `git clone https://github.com/WyvernPirate/MyFirst2DGame.git`
+2. Import the project into your preferred IDE (e.g., Eclipse, IntelliJ IDEA).
+3. Run the Main class to start the game.
+
+### Contributing
+Contributions are welcome! Please feel free to submit pull requests or open issues for any bugs or suggestions.
