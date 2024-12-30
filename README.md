@@ -29,6 +29,7 @@ The Tile manager oversees the creation, placement, and updating of game tiles, e
 The Game panel is the graphical user interface for the game, displaying the game world, player information, and other relevant data.
 
 ### Roadmap
+### Parts Completed:
 #### Part 1: The Mechanism of 2D Games
 - Setting up the project
 - Creating a game window
@@ -49,6 +50,7 @@ The Game panel is the graphical user interface for the game, displaying the game
 - Handling collisions
 - Camera movement
 
+### Parts to be Implemented:
 #### Part 5: Adding Enemies
 - Creating enemy AI
 - Implementing enemy movement and attacks
